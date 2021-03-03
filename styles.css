@@ -12,7 +12,7 @@ h3 {
   color: #8b5a50;
 }
 
-p {
+p,li {
   color: #5a5a5a;
 }
 
@@ -78,9 +78,9 @@ button:hover {
 }
 
 .selfie {
-  background-image: url(img/selfie.jpeg);
+  background-image: url(img/selfie.jpg);
   background-position: 50% 60%;
-  height: 550px;
+  height: 600px;
   background-size: cover;
 }
 
@@ -138,6 +138,10 @@ button:hover {
 .work p {
   border-left: 5px solid #ececec;
   padding-left: 10px;
+  font-size: 12px;
+}
+
+.work li {
   font-size: 12px;
 }
 
